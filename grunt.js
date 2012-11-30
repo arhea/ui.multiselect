@@ -39,12 +39,18 @@ module.exports = function(grunt) {
       }
     },
     lint: {
-      files: ['grunt.js','js/ui.multiselect.js']
+      files: ['js/ui.multiselect.js']
+    },
+    min: {
+      js: {
+        src: ['dist/<%= pkg.name %>.js'],
+        dest: 'dist/<%= pkg.name %>.min.js'
+      }
     },
     watch: {
       js: {
-        files: ['grunt.js','js/ui.multiselect.js'],
-        tasks: 'lint concat:js'
+        files: ['js/ui.multiselect.js'],
+        tasks: 'lint concat:js min:js'
       },
       css: {
         files: 'scss/*.scss',
@@ -68,11 +74,11 @@ module.exports = function(grunt) {
       globals: {
         jQuery: true
       }
-    },
+    }
   });
 
   grunt.loadNpmTasks('grunt-compass');
 
-  grunt.registerTask('default', 'compass lint concat');
+  grunt.registerTask('default', 'compass lint concat min');
 
 };

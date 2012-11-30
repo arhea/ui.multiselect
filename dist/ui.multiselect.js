@@ -1,3 +1,7 @@
+/*! jQuery UI Multiselect Widget - v0.1.0 - 2012-11-29
+* https://github.com/arhea/multiselect
+* Copyright (c) 2012 Alex Rhea; Licensed MIT */
+
 (function($){
 
 $.widget("ui.multiselect",{
