@@ -1,8 +1,6 @@
 ## jQuery UI Multiselect
 
-This is a fork of the the original Multiselect jQuery UI plugin which can be found [here](https://github.com/michael/multiselect).
-
-I plan on updating this plugin to use the latest standards and jQuery UI settings. My goal is to use CSS3 and other things and follow the jQuery plan to drop support for IE6, IE7, and IE8. I will only support modern browsers so do not file bugs for older browsers as I will not fix them.
+My goal is to use CSS3 and other things and follow the jQuery plan to drop support for IE6, IE7, and IE8. I will only support modern browsers so do not file bugs for older browsers as I will not fix them.
 
 ### How to Use
 
