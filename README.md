@@ -25,17 +25,8 @@ $(function(){
 Defaults:
 ```javascript
 {
-    sortable: true,
-    doubleClickable: true,
-    animated: 'fast',
-    show: 'slideDown',
-    hide: 'slideUp',
-    dividerLocation: 0.6,
-    availableFirst: false,
-    nodeComparator: function(node1,node2) {
-      var text1 = node1.text();
-      var text2 = node2.text();
-      return text1 == text2 ? 0 : (text1 < text2 ? -1 : 1);
+    sort: function(a,b) {
+      return $(a).text().toLowerCase().localeCompare($(b).text().toLowerCase());
     }
 }
 ```

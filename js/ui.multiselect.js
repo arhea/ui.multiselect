@@ -5,7 +5,6 @@ $.widget("ui.multiselect",{
 	elements: {},
 
 	options: {
-		sortable: false,
 		sort: function(a,b) {
 			return $(a).text().toLowerCase().localeCompare($(b).text().toLowerCase());
 		}
