@@ -13,9 +13,9 @@ module.exports = function(grunt) {
       dev: {
         src: 'scss',
         dest: 'css',
-        linecomments: false,
+        linecomments: true,
         require: [],
-        debugsass: true,
+        debugsass: false,
         relativeassets: true
       },
       prod: {
