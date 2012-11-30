@@ -5,11 +5,11 @@ My goal is to use CSS3 and other things and follow the jQuery plan to drop suppo
 ### How to Use
 
 ```html
-<select class="multiselect" multiple="multiple" name="countries[]">
+<select class="multiselect" multiple="multiple" name="toppings[]">
   <option value="pickles">Pickles</option>
   <option value="cheese">Cheese</option>
-  <option value="Lettuce">lettuce</option>
-  <option value="Tomato">Tomato</option>
+  <option value="lettuce">Lettuce</option>
+  <option value="tomato">Tomato</option>
 </select>
 ```
 

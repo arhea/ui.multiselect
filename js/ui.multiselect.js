@@ -123,7 +123,7 @@ $.widget("ui.multiselect",{
 
 	},
 
-	_destory: function() {
+	_destroy: function() {
 		this.element.removeClass("ui-helper-hidden");
 		this._off(this.elements.container);
 		this.container.remove();
