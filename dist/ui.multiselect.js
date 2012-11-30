@@ -4,16 +4,47 @@
 
 (function($){
 
+/**
+* jQuery UI Multiselect Widget
+*
+* Converts html multiselect select menus into easy to use
+* side by side lists and translates that back to the original
+* list maintaining change events
+*
+* @class multiselect
+* @namespace ui
+* @extends jQuery.Widget
+*/
 $.widget("ui.multiselect",{
 
-	elements: {},
-
+	/**
+	* The default options for the plugin
+	*
+	* @property options
+	* @type {Object}
+	* @default {}
+	*/
 	options: {
 		sort: function(a,b) {
 			return $(a).text().toLowerCase().localeCompare($(b).text().toLowerCase());
 		}
 	},
 
+	/**
+	* Stores all the references to the elements
+	*
+	* @property elements
+	* @type {Object}
+	* @default {}
+	*/
+	elements: {},
+
+	/**
+	* The create function. Initializes the plugin and creates
+	* all the sub DOM nodes
+	*
+	* @method _create
+	*/
 	_create: function() {
 
 		// generate the elements and add them to the context
@@ -36,22 +67,48 @@ $.widget("ui.multiselect",{
 			"touchend .ui-multiselect-item": this._onItemMouseup
 		});
 
+		// populate the lists
 		this._updateLists();
 
 	},
 
+	/**
+	* Adds the ui-state-hover class to an item on mouseover
+	*
+	* @method _onItemMouseover
+	* @private
+	*/
 	_onItemMouseover: function(event) {
 		$(event.currentTarget).addClass("ui-state-hover");
 	},
 
+	/**
+	* Removes state classes from the item on mouseout
+	*
+	* @method _onItemMouseout
+	* @private
+	*/
 	_onItemMouseout: function(event) {
 		$(event.currentTarget).removeClass("ui-state-hover ui-state-active");
 	},
 
+	/**
+	* Removes ui-state-hover and adds the active class to a element
+	* with the mouse down
+	*
+	* @method _onItemMousedown
+	* @private
+	*/
 	_onItemMousedown: function(event) {
 		$(event.currentTarget).removeClass("ui-state-hover").addClass("ui-state-active");
 	},
 
+	/**
+	* On mouse up it moves the element from one list to another
+	*
+	* @method _onItemMouseup
+	* @private
+	*/
 	_onItemMouseup: function(event) {
 
 		event.preventDefault();
@@ -127,7 +184,7 @@ $.widget("ui.multiselect",{
 
 	},
 
-	_destory: function() {
+	_destroy: function() {
 		this.element.removeClass("ui-helper-hidden");
 		this._off(this.elements.container);
 		this.container.remove();
@@ -146,6 +203,7 @@ $.widget("ui.multiselect",{
 	refresh: function() {
 		this._setValues();
 		this._updateLists();
+		this._trigger("refresh",this.elements);
 	},
 
 	sort: function() {
@@ -157,6 +215,8 @@ $.widget("ui.multiselect",{
 		var choices = this.elements.choicesList.find(".ui-multiselect-item").detach();
 		choices.sort(this.options.sort);
 		this.elements.choicesList.append(choices);
+
+		this._trigger("sort",this.elements);
 
 	}
 
