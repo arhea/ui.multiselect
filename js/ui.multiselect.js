@@ -69,23 +69,6 @@ $.widget("ui.multiselect",{
 
 	},
 
-	refresh: function() {
-		this._setValues();
-		this._updateLists();
-	},
-
-	sort: function() {
-
-		var selected = this.elements.selectedList.find(".ui-multiselect-item").detach();
-		selected.sort(this.options.sort);
-		this.elements.selectedList.append(selected);
-
-		var choices = this.elements.choicesList.find(".ui-multiselect-item").detach();
-		choices.sort(this.options.sort);
-		this.elements.choicesList.append(choices);
-
-	},
-
 	_setValues: function() {
 
 		var options = this.element.find('option').removeAttr("selected");
@@ -141,16 +124,35 @@ $.widget("ui.multiselect",{
 	},
 
 	_destory: function() {
-		this.element.show();
-		this.container.remove();
+		this.element.removeClass("ui-helper-hidden");
 		this._off(this.elements.container);
+		this.container.remove();
 	},
 
 	_setOption: function(key,value) {
-
+		this._superApply("_setOption",key,value);
+		this.refresh();
 	},
 
-	_setOptions: function(option) {
+	_setOptions: function(options) {
+		this._superApply("_setOptions",options);
+		this.refresh();
+	},
+
+	refresh: function() {
+		this._setValues();
+		this._updateLists();
+	},
+
+	sort: function() {
+
+		var selected = this.elements.selectedList.find(".ui-multiselect-item").detach();
+		selected.sort(this.options.sort);
+		this.elements.selectedList.append(selected);
+
+		var choices = this.elements.choicesList.find(".ui-multiselect-item").detach();
+		choices.sort(this.options.sort);
+		this.elements.choicesList.append(choices);
 
 	}
 
