@@ -1,0 +1,130 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Alex\/Projects\/multiselect\/scss\/ui\.multiselect\.scss}line{font-family:\0000311}}
+.ui-multiselect {
+  width: 400px;
+  height: 300px;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Alex\/Projects\/multiselect\/scss\/ui\.multiselect\.scss}line{font-family:\0000317}}
+.ui-multiselect .ui-widget-header {
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: normal;
+  text-align: right;
+  padding: 3px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Alex\/Projects\/multiselect\/scss\/ui\.multiselect\.scss}line{font-family:\0000325}}
+.ui-multiselect .ui-widget-content {
+  border: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Alex\/Projects\/multiselect\/scss\/ui\.multiselect\.scss}line{font-family:\0000329}}
+.ui-multiselect .ui-widget-content .ui-widget-header {
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: bold;
+  text-align: center;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Alex\/Projects\/multiselect\/scss\/ui\.multiselect\.scss}line{font-family:\0000340}}
+.ui-multiselect-selected-header,
+.ui-multiselect-choices-header,
+.ui-multiselect-selected,
+.ui-multiselect-choices {
+  float: left;
+  width: 49%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Alex\/Projects\/multiselect\/scss\/ui\.multiselect\.scss}line{font-family:\0000345}}
+.ui-multiselect-body {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  *zoom: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Alex\/Projects\/multiselect\/scss\/ui\.multiselect\.scss}line{font-family:\0000355}}
+.ui-multiselect-body.ui-state-default,
+.ui-multiselect-selected.ui-state-default,
+.ui-multiselect-choices.ui-state-default {
+  background: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Alex\/Projects\/multiselect\/scss\/ui\.multiselect\.scss}line{font-family:\0000362}}
+.ui-multiselect-selected-header,
+.ui-multiselect-choices-header {
+  text-align: center;
+  position: absolute;
+  top: 0;
+  width: 50%;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Alex\/Projects\/multiselect\/scss\/ui\.multiselect\.scss}line{font-family:\0000373}}
+.ui-multiselect-selected,
+.ui-multiselect-choices {
+  position: absolute;
+  top: 22px;
+  bottom: 0;
+  width: 50%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Alex\/Projects\/multiselect\/scss\/ui\.multiselect\.scss}line{font-family:\0000383}}
+.ui-multiselect-selected-header,
+.ui-multiselect-selected {
+  left: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Alex\/Projects\/multiselect\/scss\/ui\.multiselect\.scss}line{font-family:\0000388}}
+.ui-multiselect-choices-header,
+.ui-multiselect-choices {
+  left: 50%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Alex\/Projects\/multiselect\/scss\/ui\.multiselect\.scss}line{font-family:\0000393}}
+.ui-multiselect-selected-header,
+.ui-multiselect-selected {
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Alex\/Projects\/multiselect\/scss\/ui\.multiselect\.scss}line{font-family:\00003100}}
+.ui-multiselect-choices-header,
+.ui-multiselect-choices {
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Alex\/Projects\/multiselect\/scss\/ui\.multiselect\.scss}line{font-family:\00003106}}
+.ui-multiselect-item {
+  position: relative;
+  font-size: 11px;
+  line-height: 17px;
+  padding: 3px 3px 3px 20px;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Alex\/Projects\/multiselect\/scss\/ui\.multiselect\.scss}line{font-family:\00003115}}
+.ui-multiselect-item.ui-state-default, .ui-multiselect-item.ui-state-hover {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Alex\/Projects\/multiselect\/scss\/ui\.multiselect\.scss}line{font-family:\00003121}}
+.ui-multiselect-item .ui-icon {
+  position: absolute;
+  top: 50%;
+  left: 3px;
+  margin-top: -8px;
+}

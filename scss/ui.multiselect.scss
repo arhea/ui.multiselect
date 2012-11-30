@@ -1,0 +1,128 @@
+@import "compass";
+
+@mixin user-select($select) {
+  -moz-user-select: -moz-#{$select};
+  -khtml-user-select: $select;
+  -webkit-user-select: $select;
+  -o-user-select: $select;
+  user-select: $select;
+}
+
+.ui-multiselect {
+  width: 400px;
+  height: 300px;
+  @include user-select(none);
+}
+
+.ui-multiselect .ui-widget-header {
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: normal;
+  text-align: right;
+  padding: 3px;
+}
+
+.ui-multiselect .ui-widget-content {
+  border: none;
+}
+
+.ui-multiselect .ui-widget-content .ui-widget-header {
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: bold;
+  text-align: center;
+  padding: 0;
+}
+
+.ui-multiselect-selected-header,
+.ui-multiselect-choices-header,
+.ui-multiselect-selected,
+.ui-multiselect-choices {
+  float: left;
+  width: 49%;
+}
+
+.ui-multiselect-body {
+  position: relative;
+  height: 100%;
+  @include clearfix();
+}
+
+.ui-multiselect-body,
+.ui-multiselect-selected,
+.ui-multiselect-choices {
+
+  &.ui-state-default {
+    background: #fff;
+  }
+
+}
+
+.ui-multiselect-selected-header,
+.ui-multiselect-choices-header {
+  text-align: center;
+  position: absolute;
+  top: 0;
+  width: 50%;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.ui-multiselect-selected,
+.ui-multiselect-choices {
+  position: absolute;
+  top: 22px;
+  bottom: 0;
+  width: 50%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.ui-multiselect-selected-header,
+.ui-multiselect-selected {
+  left: 0;
+}
+
+.ui-multiselect-choices-header,
+.ui-multiselect-choices {
+  left: 50%;
+}
+
+.ui-multiselect-selected-header,
+.ui-multiselect-selected {
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+}
+
+.ui-multiselect-choices-header,
+.ui-multiselect-choices {
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+}
+
+.ui-multiselect-item {
+  position: relative;
+  font-size: 11px;
+  line-height: 17px;
+  padding: 3px 3px 3px 20px;
+  cursor: pointer;
+
+  &.ui-state-default,
+  &.ui-state-hover
+  {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+
+  .ui-icon {
+    position: absolute;
+    top: 50%;
+    left: 3px;
+    margin-top: -8px;
+  }
+
+}

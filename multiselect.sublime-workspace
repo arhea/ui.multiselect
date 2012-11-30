@@ -1,0 +1,926 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"class",
+				"className"
+			],
+			[
+				"NS",
+				"NSEntities"
+			],
+			[
+				"entit",
+				"entities"
+			],
+			[
+				"ent",
+				"entities"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"dat",
+				"dateFormat"
+			],
+			[
+				"date",
+				"datepicker"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"r",
+				"rootElement"
+			],
+			[
+				"root",
+				"rootElement"
+			],
+			[
+				"roo",
+				"rootElement"
+			],
+			[
+				"Bu",
+				"BUILDER"
+			],
+			[
+				"curr",
+				"currentState"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"SE",
+				"SELECTION"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"schem",
+				"schema-class"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"current",
+				"currentUser"
+			],
+			[
+				"au",
+				"autoSave"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"va",
+				"isValidMAC"
+			],
+			[
+				"is",
+				"isValidURL"
+			],
+			[
+				"com",
+				"components"
+			],
+			[
+				"getT",
+				"getTargetRelations"
+			],
+			[
+				"getBy",
+				"getByRelationId"
+			],
+			[
+				"rend",
+				"renderCategory"
+			],
+			[
+				"ca",
+				"camelize"
+			],
+			[
+				"collapse",
+				"collapseId"
+			],
+			[
+				"getCl",
+				"getClassId"
+			],
+			[
+				"clic",
+				"clickTab"
+			],
+			[
+				"get",
+				"getCurrentTab"
+			],
+			[
+				"_",
+				"_currentTab"
+			],
+			[
+				"entity",
+				"entity-tab"
+			],
+			[
+				"overflow",
+				"overflow-y"
+			],
+			[
+				"default",
+				"defaultValue"
+			],
+			[
+				"o",
+				"onChange"
+			],
+			[
+				"attr",
+				"attributes"
+			],
+			[
+				"defaul",
+				"defaultValue"
+			],
+			[
+				"att",
+				"attributes"
+			],
+			[
+				"property",
+				"propertyText"
+			],
+			[
+				"inno",
+				"innoDb"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"temp",
+				"templates"
+			],
+			[
+				"_pr",
+				"_projectId"
+			],
+			[
+				"getPr",
+				"getProjectId"
+			],
+			[
+				"set",
+				"setProject"
+			],
+			[
+				"permissi",
+				"permission-own"
+			],
+			[
+				"comp",
+				"Components"
+			],
+			[
+				"border-",
+				"border-radius"
+			],
+			[
+				"overf",
+				"overflow-x"
+			],
+			[
+				"over",
+				"overflow-x"
+			],
+			[
+				"main",
+				"main-header"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"m",
+				"mozNotification"
+			],
+			[
+				"notif",
+				"notifType"
+			],
+			[
+				"browse",
+				"browserNotification"
+			],
+			[
+				"not",
+				"notif"
+			],
+			[
+				"noti",
+				"notifications"
+			],
+			[
+				"data",
+				"data-action"
+			],
+			[
+				"data-se",
+				"data-select-all"
+			],
+			[
+				"de",
+				"destroy"
+			],
+			[
+				"re",
+				"render"
+			],
+			[
+				"gant",
+				"ganttChartCode"
+			],
+			[
+				"entt",
+				"entityId"
+			],
+			[
+				"pull",
+				"pull-right"
+			],
+			[
+				"curre",
+				"currentTarget"
+			],
+			[
+				"bar",
+				"barChart"
+			],
+			[
+				"actio",
+				"actionCost"
+			],
+			[
+				"erro",
+				"errorText"
+			],
+			[
+				"to",
+				"toUpperCase"
+			],
+			[
+				"cr",
+				"currentTarget"
+			],
+			[
+				"ren",
+				"renderTypeParameters"
+			],
+			[
+				"input",
+				"input-xlarge"
+			],
+			[
+				"reset",
+				"resetChangedAttributes"
+			],
+			[
+				"parse",
+				"parseFloat"
+			],
+			[
+				"getD",
+				"getDefaultValue"
+			],
+			[
+				"for",
+				"formData"
+			],
+			[
+				"dara",
+				"data-attribute-value"
+			],
+			[
+				"type",
+				"typeParameters"
+			],
+			[
+				"prot",
+				"prototype"
+			],
+			[
+				"instanceo",
+				"instanceof"
+			],
+			[
+				"pro",
+				"prototype"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 6429,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "grunt.js",
+			"settings":
+			{
+				"buffer_size": 845,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/ui.multiselect.js",
+			"settings":
+			{
+				"buffer_size": 10099,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/ui.multiselect.scss",
+			"settings":
+			{
+				"buffer_size": 1778,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 1177,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Innoslate Build",
+	"command_palette":
+	{
+		"height": 267.0,
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"js",
+				"Preferences: JSLint Settings – Default"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Alex/Projects/multiselect/scss/ui.multiselect.scss",
+		"/Users/Alex/Projects/multiselect/scss/normalize.scss",
+		"/Users/Alex/Projects/multiselect/README.md",
+		"/Users/Alex/Projects/multiselect/multiselect.sublime-project",
+		"/Users/Alex/Projects/multiselect/.gitignore",
+		"/Users/Alex/Projects/multiselect/multiselect.sublime-workspace",
+		"/Users/Alex/Projects/multiselect/less/ui.multiselect.scss",
+		"/Users/Alex/Projects/multiselect/less/normalize.less",
+		"/Users/Alex/Sites/fitness/application/logs/log-2012-11-27.php",
+		"/Users/Alex/Sites/fitness/index.php",
+		"/Users/Alex/Sites/fitness/application/config/autoload.php",
+		"/Users/Alex/Sites/fitness/application/libraries/REST_Controller.php",
+		"/Users/Alex/Sites/fitness/application/config/rest.php",
+		"/Users/Alex/Sites/fitness/application/config/routes.php",
+		"/Users/Alex/Sites/fitness/.htaccess",
+		"/Users/Alex/Sites/fitness/application/config/config.php",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/js/app/templates/page-document-conops-builder.html",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/js/app/templates/property-datetime.html",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/js/app/views/property-datetime.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/js/app/collections/NSEntities.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/js/app/views/property-duration.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/js/app/modules/attributes.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/js/app/models/NSEntity.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/js/app/views/property-distribution.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/js/app/models/NSProperty.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/js/app/templates/page-document-conops-setup.html",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/js/app/router.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/js/app/templates/page-document-conops-selection.html",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/application.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/js/app/config.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/js/app/views/page-document-conops.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/js/plugins/jquery.fileupload.package.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/js/libs/jquery-ui.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/js/core/views/View.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/innoslate.sublime-project",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/js/app/init.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/pages/actionDiagram.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/components/labelList.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/pages/schemaClass.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/modals/editLabel.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/layout/page.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/pages/schemaRelation.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/components/comments.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/variables.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/modals/editProperty.less",
+		"/Users/Alex/Google Drive/School/2012 Fall/Intro to Media Computation/Lab-07/lab07.py",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/extensions/modal.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/modals/selectEntities.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/modals/selectClass.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/modals/editAttributes.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/modals/selectLabels.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/components/attributes.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/extensions/buttons.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/layout/nav.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/styles.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/bootstrap/variables.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/extensions/tabs.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/components/diagrams.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/extensions/table.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/base.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/extensions/well.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/extensions/progress.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/extensions/popover.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/welcome.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/pages/milestoneDiagram.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/modals/editUserBilling.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/modals/map.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/modals/chart.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/modals/conflicts.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/modals/editQuality.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/modals/editEntityScript.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/components/filter.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/pages/locationsDiagram.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/pages/timelineDiagram.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/pages/notFound.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/pages/riskDiagram.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/pages/requirements.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/pages/simulator.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/pages/analyzer.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/pages/schema.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/pages/entity.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/pages/database.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/components/propertyList.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/components/relationList.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/components/chat.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/war/assets/less/components/entity-images.less",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/javascript/app/database/models/User.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/javascript/app/services/Database.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/javascript/app/services/Cookie.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/javascript/welcome/views/login.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/javascript/app/views/components/Images.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/javascript/app/templates/viewImages.tpl",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/javascript/app/database/models/Image.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/javascript/app/views/pages/Entity.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/styles/_login.scss",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/grunt.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/styles/_layout.scss",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/styles/global.scss",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/styles/welcome.scss",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/javascript/app/database/models/Class.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/javascript/app/views/properties/Datetime.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/javascript/app/views/properties/Number.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/javascript/app/views/properties/BigText.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/javascript/app/views/properties/Duration.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/javascript/app/views/properties/Enumeration.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/javascript/app/views/properties/File.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/javascript/app/views/properties/Html.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/javascript/app/views/properties/Percent.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/javascript/app/views/properties/Geopoint.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/javascript/app/views/properties/URI.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/javascript/app/templates/propertyGeopoint.tpl",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/javascript/app/templates/propertyURI.tpl",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/styles/components/_property.scss",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/javascript/app/router.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/javascript/app/views/pages/Database.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/javascript/app/templates/propertyEnumeration.tpl",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/javascript/app/views/base/view.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/javascript/app/views/base/property.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/javascript/app/views/dialogs/Select.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/javascript/app/views/base/dialog.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/javascript/app/database/models/Schema.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/javascript/app/views/base/page.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/javascript/app/views/components/Attributes.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/javascript/app/database/utils/PreferenceMethods.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/javascript/app/driver.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/javascript/app/database/utils/EntitiesSearch.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/javascript/app/database/utils/AttributeMethods.js",
+		"/Users/Alex/SPEC Innovations/Innoslate/ui/javascript/app/database/utils/LabelMethods.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"action",
+			"draggable",
+			"_populateLists",
+			"that._populateLists",
+			"that.selectedList",
+			"that.availableList",
+			"availableList",
+			"this.availableList",
+			"this.selectedList",
+			"this.availableActions",
+			"this.selectedActions",
+			"this.availableContainer",
+			"this.selectedContainer",
+			"this.container",
+			"search",
+			"width",
+			"attributes",
+			"getAttributeById",
+			"schema-class",
+			"schema-cl",
+			"_attributess",
+			"_entityAttribute",
+			"_ids",
+			"innoDb",
+			"Base.Page",
+			"sourceURL",
+			"_",
+			"sourceURL",
+			"useSourceURL",
+			"sourceURLs",
+			"template",
+			">\n",
+			"sourceU",
+			"template",
+			"instance",
+			"_onviewEvent",
+			"_prepareview",
+			"models",
+			"model",
+			"_properoties\n_properties",
+			"Session",
+			"Model.ex",
+			"Session",
+			"background",
+			" ;",
+			"btn-navbar",
+			"nav",
+			".ui-icon",
+			"ui-icon",
+			"gantt",
+			"icon",
+			"#toolbar",
+			"text-shad",
+			"#nav",
+			"simulation",
+			"viewSim",
+			"label",
+			".prefer",
+			"this.options.report",
+			"this.options.wysiwygCodeWindow",
+			"this.options.cssCodeWindow",
+			"this.options.htmlCodeWindow",
+			".gantt",
+			"http://www.kksou.com/gmap/samples/kml_sample1.kml",
+			"cons",
+			"prop.get('name')",
+			"enumeration",
+			"JSON.parse",
+			"property.getTypeParamter(\"default\")",
+			"this.options.property.get(\"typeParameters\")[\"default\"]",
+			"this.options.charts",
+			"consol",
+			"durationObject",
+			"#nav",
+			"_changed",
+			"console",
+			"_changed"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"this.$selectedList",
+			"this.$availableList",
+			"this.$selectedList",
+			"this.$availableActions",
+			"this.$selectedActions",
+			"this.$availableContainer",
+			"this.$selectedContainer",
+			"this.$container",
+			"_attributes",
+			"DatabaseFactory",
+			"inno.views.base.Page",
+			"_onViewEvent",
+			"_prepareView",
+			"views",
+			"view",
+			"_labels",
+			"innoDb",
+			"this.model",
+			"this.subviews.wysiwygCodeWindow",
+			"this.subviews.cssCodeWindow",
+			"this.subviews.htmlCodeWindow",
+			"property.getDefaultValue()",
+			"property.getTypeParamter(\"default\")",
+			"this.charts",
+			"_changedAttributes"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 6429,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								793,
+								793
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "grunt.js",
+					"settings":
+					{
+						"buffer_size": 845,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								147,
+								147
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/ui.multiselect.js",
+					"settings":
+					{
+						"buffer_size": 10099,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								426,
+								432
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 996.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "scss/ui.multiselect.scss",
+					"settings":
+					{
+						"buffer_size": 1778,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1568,
+								1568
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1764.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "README.md",
+					"settings":
+					{
+						"buffer_size": 1177,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								815,
+								815
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 190.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 59.0
+	},
+	"output.jslint_result_view":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 232.0,
+	"status_bar_visible": true
+}
