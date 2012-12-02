@@ -34,7 +34,7 @@ module.exports = function(grunt) {
         dest: 'dist/<%= pkg.name %>.js'
       },
       css: {
-        src: ['<banner:meta.banner>', 'css/ui.multiselect.js'],
+        src: ['<banner:meta.banner>', 'css/ui.multiselect.css'],
         dest: 'dist/<%= pkg.name %>.css'
       }
     },

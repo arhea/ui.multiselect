@@ -1,4 +1,4 @@
-/*! jQuery UI Multiselect Widget - v0.1.0 - 2012-11-30
+/*! jQuery UI Multiselect Widget - v0.1.0 - 2012-12-02
 * https://github.com/arhea/multiselect
 * Copyright (c) 2012 Alex Rhea; Licensed MIT */
 
@@ -53,10 +53,16 @@ $.widget("ui.multiselect",{
 		this.elements.header.text("0 selected of 95");
 
 		// insert the container after the element
-		this.elements.container.insertAfter( this.element );
+		this.elements.container.insertAfter( this.element )
+			.attr({
+				"role": "select"
+			});
 
 		// hide the select dropdown box
-		this.element.addClass("ui-helper-hidden");
+		this.element.addClass("ui-helper-hidden").attr({
+			"aria-hidden": "true",
+			"aria-multiselectable": "true"
+		});
 
 		this._on(this.elements.container,{
 			"mouseover .ui-multiselect-item": this._onItemMouseover,
@@ -125,12 +131,21 @@ $.widget("ui.multiselect",{
 		}
 
 		this._updateCount();
-		this._setValues();
+		this._updateSelect();
 		this.sort();
 
 	},
 
-	_setValues: function() {
+	/**
+	* Transfers the values from the widget to the select menu and triggers
+	* a change event on the select menu
+	*
+	* @method _updateSelect
+	* @event change
+	* @event input
+	* @private
+	*/
+	_updateSelect: function() {
 
 		var options = this.element.find('option').removeAttr("selected");
 
@@ -139,10 +154,16 @@ $.widget("ui.multiselect",{
 			options.filter("[value="+ $item.data("value") +"]").attr("selected","selected");
 		});
 
-		this.element.trigger("change");
+		this.element.trigger("change").trigger("input");
 
 	},
 
+	/**
+	* Updates the count at the top bar
+	*
+	* @method _updateCount
+	* @private
+	*/
 	_updateCount: function() {
 
 		var selectedCount = this.elements.selectedList.find('.ui-multiselect-item').length;
@@ -152,6 +173,12 @@ $.widget("ui.multiselect",{
 
 	},
 
+	/**
+	* Populates the lists based on their state
+	*
+	* @method _updateLists
+	* @private
+	*/
 	_updateLists: function() {
 
 		// get all the options in the original element
@@ -184,28 +211,59 @@ $.widget("ui.multiselect",{
 
 	},
 
+	/**
+	* Removes all of the widgets elements
+	*
+	* @method _destroy
+	* @private
+	*/
 	_destroy: function() {
-		this.element.removeClass("ui-helper-hidden");
+		this.element.removeClass("ui-helper-hidden")
+			.removeAttr("aria-hidden")
+			.removeAttr("aria-multiselectable");
 		this._off(this.elements.container);
-		this.container.remove();
+		this.elements.container.remove();
 	},
 
+	/**
+	* Set an option on the widget then refresh to reflect
+	* the change
+	*
+	* @method _setOption
+	* @private
+	*/
 	_setOption: function(key,value) {
-		this._superApply("_setOption",key,value);
+		this._super(key,value);
 		this.refresh();
 	},
 
+	/**
+	* Set multiple options then refresh
+	*
+	* @method _setOptions
+	* @private
+	*/
 	_setOptions: function(options) {
-		this._superApply("_setOptions",options);
+		this._super(options);
 		this.refresh();
 	},
 
+	/**
+	* Refresh the widgets state and sync with the select menu
+	*
+	* @method refresh
+	*/
 	refresh: function() {
-		this._setValues();
+		this._updateSelect();
 		this._updateLists();
 		this._trigger("refresh",this.elements);
 	},
 
+	/**
+	* Sort the two lists based on the passed sort function
+	*
+	* @method sort
+	*/
 	sort: function() {
 
 		var selected = this.elements.selectedList.find(".ui-multiselect-item").detach();
@@ -239,8 +297,8 @@ function generateHtmlComponents() {
 	var choicesList = selectedList.clone().addClass("ui-multiselect-choices");
 	selectedList.addClass("ui-multiselect-selected");
 
-	content.append('<div class="ui-multiselect-selected-header ui-widget-header ui-helper-reset">Selected</div>');
-	content.append('<div class="ui-multiselect-choices-header ui-widget-header ui-helper-reset">Available</div>');
+	content.append('<div class="ui-multiselect-selected-header ui-widget-header ui-helper-reset" role="header">Selected</div>');
+	content.append('<div class="ui-multiselect-choices-header ui-widget-header ui-helper-reset" role="header">Available</div>');
 
 	content.append(selectedList,choicesList);
 
@@ -261,9 +319,13 @@ function generateHtmlComponents() {
 function createListItem(option,selected) {
 	var icon = selected ? "ui-icon-minus" : "ui-icon-plus";
 	var element = $(document.createElement("li"));
-	element.addClass("ui-state-default ui-multiselect-item");
-	element.data("value",option.value);
-	element.html('<span class="ui-icon '+ icon +'"></span>' + option.innerHTML);
+	element.addClass("ui-state-default ui-multiselect-item")
+		.attr({
+			"aria-selected": selected.toString(),
+			"role": "listitem"
+		})
+		.data("value",option.value)
+		.html('<span class="ui-icon '+ icon +'"></span>' + option.innerHTML);
 	return element;
 }
 
