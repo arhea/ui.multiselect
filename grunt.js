@@ -82,6 +82,8 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-compass');
 
-  grunt.registerTask('default', 'compass lint concat min');
+  grunt.registerTask('default', 'compass lint concat min qunit');
+
+  grunt.registerTask('travis', 'lint qunit');
 
 };

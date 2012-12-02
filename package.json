@@ -21,9 +21,21 @@
       "url": "https://github.com/gruntjs/grunt-init-jquery-sample/blob/master/LICENSE-MIT"
     }
   ],
-  "dependencies": {
-    "jquery": "*",
-    "jqueryui": ">= 1.8.3"
+  "scripts": {
+    "test": "grunt travis"
   },
-  "keywords": []
+  "dependencies": {
+    "jQuery": "*",
+    "jQueryui": ">= 1.8.3"
+  },
+  "devDependencies": {
+    "grunt-compass": "~0.3.7",
+    "grunt": "~0.3.17"
+  },
+  "keywords": [
+    "jquery.js",
+    "jqueryui.js",
+    "widget",
+    "multiselect"
+  ]
 }
