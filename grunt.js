@@ -38,19 +38,22 @@ module.exports = function(grunt) {
         dest: 'dist/<%= pkg.name %>.css'
       }
     },
-    lint: {
-      files: ['js/ui.multiselect.js']
-    },
     min: {
       js: {
         src: ['dist/<%= pkg.name %>.js'],
         dest: 'dist/<%= pkg.name %>.min.js'
       }
     },
+    qunit: {
+      all: ['tests/*.html']
+    },
+    lint: {
+      files: ['js/ui.multiselect.js']
+    },
     watch: {
       js: {
         files: ['js/ui.multiselect.js'],
-        tasks: 'lint concat:js min:js'
+        tasks: 'lint concat:js min:js qunit'
       },
       css: {
         files: 'scss/*.scss',
