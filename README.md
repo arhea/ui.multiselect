@@ -1,4 +1,4 @@
-## jQuery UI Multiselect
+## jQuery UI Multiselect [![Build Status](https://secure.travis-ci.org/arhea/ui.multiselect.png?branch=master)](https://travis-ci.org/arhea/ui.multiselect)
 
 My goal is to use CSS3 and other things and follow the jQuery plan to drop support for IE6, IE7, and IE8. I will only support modern browsers so do not file bugs for older browsers as I will not fix them.
 
