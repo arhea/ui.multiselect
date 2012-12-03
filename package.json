@@ -38,7 +38,8 @@
   },
   "devDependencies": {
     "grunt": "~0.3.17",
-    "grunt-compass": "~0.3.7"
+    "grunt-compass": "~0.3.7",
+    "grunt-travis": "~0.2.0"
   },
   "keywords": [
     "jquery.js",

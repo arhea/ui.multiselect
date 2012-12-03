@@ -9,6 +9,10 @@ module.exports = function(grunt) {
         '* Copyright (c) <%= grunt.template.today("yyyy") %> <%= pkg.author.name %>;' +
         ' Licensed <%= _.pluck(pkg.licenses, "type").join(", ") %> */'
     },
+    travis: {
+      language: "node_js",
+      node_js: [0.6]
+    },
     compass: {
       dev: {
         src: 'scss',
@@ -81,9 +85,10 @@ module.exports = function(grunt) {
   });
 
   grunt.loadNpmTasks('grunt-compass');
+  grunt.loadNpmTasks('grunt-travis');
 
   grunt.registerTask('default', 'compass lint concat min qunit');
 
-  grunt.registerTask('travis', 'lint qunit');
+  //grunt.registerTask('travis', 'lint qunit');
 
 };
