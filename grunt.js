@@ -11,7 +11,8 @@ module.exports = function(grunt) {
     },
     travis: {
       language: "node_js",
-      node_js: [0.6]
+      node_js: [0.6],
+      validate: false
     },
     compass: {
       dev: {
