@@ -21,8 +21,11 @@
       "url": "https://github.com/gruntjs/grunt-init-jquery-sample/blob/master/LICENSE-MIT"
     }
   ],
+  "engines": {
+    "node": ">=0.6"
+  },
   "scripts": {
-    "test": "grunt travis"
+    "test": "grunt travis --verbose"
   },
   "files": [
     "dist/ui.multiselect.css",
@@ -31,10 +34,7 @@
   "main": "dist/ui.multiselect.js",
   "minified": "dist/ui.multiselect.min.js",
   "dependencies": {
-    "jquery": ">=1.3.2",
-    "ui.css": "1.8.14",
-    "ui.core": "1.8.14",
-    "ui.widget": "1.8.14"
+    "jquery": ">=1.3.2"
   },
   "devDependencies": {
     "grunt-compass": "~0.3.7",
